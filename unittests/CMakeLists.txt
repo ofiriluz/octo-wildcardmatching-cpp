@@ -1,4 +1,4 @@
-FIND_PACKAGE(gtest REQUIRED CONFIG)
+FIND_PACKAGE(GTest REQUIRED CONFIG)
 
 ADD_EXECUTABLE(octo-wildcardmatching-cpp-tests
     src/wildcard-path-matcher-tests.cpp
@@ -10,7 +10,8 @@ SET_TARGET_PROPERTIES(octo-wildcardmatching-cpp-tests PROPERTIES CXX_STANDARD 17
 
 TARGET_LINK_LIBRARIES(octo-wildcardmatching-cpp-tests
     octo-wildcardmatching-cpp
-    gtest::gtest
+    GTest::gtest
+    GTest::gmock
     pthread
 )
 
