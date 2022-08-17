@@ -5,8 +5,6 @@ PROJECT(octo-wildcardmatching-cpp)
 # Add CMake options to path
 SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/)
 INCLUDE(ConfigOptions)
-INCLUDE(LoadConanBuildInfo)
-LOAD_CONAN_BUILD_INFO()
 
 # Library definition
 ADD_LIBRARY(octo-wildcardmatching-cpp STATIC

@@ -3,3 +3,4 @@ build
 install
 __pycache__
 .vscode
+CMakeUserPresets.json
