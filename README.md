@@ -2,6 +2,8 @@ octo-wildcardmatching-cpp
 ==============
 
 [![Wildcard Matching Linux Build Pipeline](https://github.com/ofiriluz/octo-wildcardmatching-cpp/actions/workflows/linux.yml/badge.svg)](https://github.com/ofiriluz/octo-wildcardmatching-cpp/actions/workflows/linux.yml)
+[![Wildcard Matching Windows Build Pipeline](https://github.com/ofiriluz/octo-wildcardmatching-cpp/actions/workflows/windows.yml/badge.svg)](https://github.com/ofiriluz/octo-wildcardmatching-cpp/actions/workflows/windows.yml)
+[![Wildcard Matching Mac Build Pipeline](https://github.com/ofiriluz/octo-wildcardmatching-cpp/actions/workflows/mac.yml/badge.svg)](https://github.com/ofiriluz/octo-wildcardmatching-cpp/actions/workflows/mac.yml)
 
 
 Wildcard matching library for different purposes
